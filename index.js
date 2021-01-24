@@ -20,3 +20,16 @@ ReactDom.render(
   </div>,
   document.getElementById("root")
 );
+
+
+ReactDom.render(
+  <div>
+    <h1>My JSX Practice</h1>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
