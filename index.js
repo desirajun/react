@@ -33,3 +33,17 @@ ReactDom.render(
   </div>,
   document.getElementById("root")
 );
+
+
+const fName = "Neeraja";
+const lName = "Desiraju";
+
+ReactDom.render(
+  <div>
+    <h1>
+      Hello {fName} {lName}!
+    </h1>
+    <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
+  </div>,
+  document.getElementById("root")
+);
